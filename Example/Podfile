@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VYKit_Example' do
+  pod 'VYKit', :path => '../'
+
+  target 'VYKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
