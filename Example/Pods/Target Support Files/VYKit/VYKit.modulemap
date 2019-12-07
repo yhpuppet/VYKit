@@ -1,0 +1,6 @@
+framework module VYKit {
+  umbrella header "VYKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
